@@ -26,7 +26,7 @@ Motors are controlled via two TB6612FNG dual-motor controllers.  Each one can co
 
 ### Radio Interface
 
-- 2x4 header block for the connection of an NRF24L01 transceiver (remote control).  The Arduino Giga supports Wifi and Bluetooth natively so that's another option, however, the Arduino Mega has no native support - hance the radio interface.  This block includes a 10uF decoupling capacitor, which is optional but highly recommended to achieve higher range, so that doesn't need to be soldered onto the NRF module as is commonly done.  
+The 2x4 header block is for the connection of an NRF24L01 transceiver (remote control).  The Arduino Giga supports Wifi and Bluetooth natively so that's another option, however, the Arduino Mega has no native support - hance the radio interface.  This block includes a 10uF decoupling capacitor, which is optional but highly recommended to achieve higher range, so that doesn't need to be soldered onto the NRF module as is commonly done.  
 
 ### Servo's
 
@@ -40,7 +40,7 @@ Note that these can be used for other purposes, however, the resistor values wer
 
 ### I2C Connectors
 
-- Two JST 2.54mm I2C connectors.  These can be used for any purpose (e.g. vision sensor, etc.).  No other components use I2C so there are no inherent address conflicts.  Note that the SDA and SCL pins DO NOT have pullup resistors as, in my experience, most external I2C components include those in their circuitry.
+Two general purpose JST 2.54mm I2C connectors are included.  These can be used for any purpose (e.g. vision sensor, etc.).  No other components use I2C so there are no inherent address conflicts.  Note that the SDA and SCL pins DO NOT have pullup resistors as, in my experience, most external I2C components include those in their circuitry.
 
 # Schematic
 
