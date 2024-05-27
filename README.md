@@ -66,3 +66,4 @@ Below are some of the resources that I found useful
 - [Voltage Divider Calculator](https://ohmslawcalculator.com/voltage-divider-calculator):  I used this to determine the resistors needed for the voltage monitor.
 - [PCB Trace Width Calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width)
 - [Altium 365 Viewer](https://www.altium.com/viewer/):  In my learning journey I found it beneficial to look at a lot commercial boards to see how they worked.  Companies such as Adafruit and Sparkfun often publish their eagle files, which can be viewed using this free tool.  Very helpful in comparing a schematic against an implementation and in reverse engineering.
+- 
